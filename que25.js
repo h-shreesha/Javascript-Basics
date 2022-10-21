@@ -8,3 +8,13 @@
 */
 
 const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+
+// for (let x of shoppingCart){
+//     if
+// }
+
+if ((shoppingCart.includes("Meat")) != true){
+    shoppingCart.unshift("Meat");
+    console.log(shoppingCart);
+}
+
