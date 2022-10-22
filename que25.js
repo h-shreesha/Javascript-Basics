@@ -18,3 +18,10 @@ if ((shoppingCart.includes("Meat")) != true){
     console.log(shoppingCart);
 }
 
+if (shoppingCart.includes("Sugar") != true) {
+  shoppingCart.push("Sugar");
+  console.log(shoppingCart);
+}
+
+
+
