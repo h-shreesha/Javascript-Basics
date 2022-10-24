@@ -23,10 +23,13 @@ if (shoppingCart.includes("Sugar") != true) {
   console.log(shoppingCart);
 }
 
-if (shoppingCart.includes("Sugar") != true) {
-  shoppingCart.push("Sugar");
-  console.log(shoppingCart);
-}
+shoppingCart.splice(0, 3);
+console.log(shoppingCart);
+
+// if (shoppingCart.includes("Sugar") != true) {
+//   shoppingCart.push("Sugar");
+//   console.log(shoppingCart);
+// }
 
 
 
