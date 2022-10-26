@@ -281,6 +281,6 @@ const res2 = countryList.filter((word) => word.length == 4);
 console.log(res2);
 
 
-// - Extract all the countries containing two or more words from the countries array and print it as array
+// - Extract all the countries containing two or more words from the countries array and print it as arrayy
 const res3 = countryList.filter((word) => word.length == 4);
-console.log(res2);
+console.log(res3);
