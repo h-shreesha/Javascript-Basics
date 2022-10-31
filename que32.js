@@ -262,7 +262,7 @@ const countryList = [
 
 /*
 - Extract all the countries contain the word 'land' from the countries array and print it as array
-- Reverse the countries array and capitalize each country and stored it as an array
+
 */
 
 //  - Extract all the countries contain the word 'land' from the countries array and print it as array
@@ -281,3 +281,6 @@ console.log(res2);
 // - Extract all the countries containing two or more words from the countries array and print it as arrayy
 const res3 = countryList.filter((word) => word.length == 4);
 console.log(res3);
+
+
+// - Reverse the countries array and capitalize each country and stored it as an array
