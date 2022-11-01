@@ -283,4 +283,4 @@ const res3 = countryList.filter((word) => word.length == 4);
 console.log(res3);
 
 
-// - Reverse the countries array and capitalize each country and stored it as an array
+// - Reverse the countries array and capitalize each country and stored it as an ar
